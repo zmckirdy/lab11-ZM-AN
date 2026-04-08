@@ -22,4 +22,22 @@ def log(a, b):
 def exp(a, b): 
     return a^b
 
+def subtract (a, b):
+    return a - b
 
+def multiply(a, b):
+    return a * b
+
+
+def logarithm(a, b):
+    if a <= 0:
+        raise ValueError("Error: Logarithm's argument must be greater than 0.")
+    elif b <= 0:
+        raise ValueError("Error: Logarithm's base must be greater than 0.")
+    elif b == 1:
+        raise ValueError("Error: Logarithm's base cannot equal 1.")
+    else:
+        return math.log(a, b)
+
+def exponent(a, b):
+    return a ** b
