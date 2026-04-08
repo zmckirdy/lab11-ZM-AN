@@ -10,32 +10,23 @@ def square_root(a):
     except:
         raise ValueError("Error: Argument cannot be less than 0.")
 
-def hypoteneuse(a, b):
+def hypotenuse(a, b):
     return math.hypot(a, b)
 
 def add(a, b): 
     return a + b
 
-def sub(a, b):
-    return a - b
-
 def mul(a, b): 
     return a * b
 
 def div(a, b): 
-    return b / a 
-
-def log(a, b): 
-    return math.log(b,a)
+    return b / a
 
 def exp(a, b): 
     return a^b
 
-def subtract (a, b):
+def subtract(a, b):
     return a - b
-
-def multiply(a, b):
-    return a * b
 
 def logarithm(a, b):
     if a <= 0:
@@ -46,6 +37,3 @@ def logarithm(a, b):
         raise ValueError("Error: Logarithm's base cannot equal 1.")
     else:
         return math.log(a, b)
-
-def exponent(a, b):
-    return a ** b
