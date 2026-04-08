@@ -1,5 +1,14 @@
 import math
 
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except:
+        raise ValueError("Error: Argument cannot be less than 0.")
+
+def hypoteneuse(a, b):
+    return math.hypot(a, b)
+
 def add(a, b): 
     return a + b
 
