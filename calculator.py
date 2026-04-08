@@ -37,7 +37,6 @@ def subtract (a, b):
 def multiply(a, b):
     return a * b
 
-
 def logarithm(a, b):
     if a <= 0:
         raise ValueError("Error: Logarithm's argument must be greater than 0.")
