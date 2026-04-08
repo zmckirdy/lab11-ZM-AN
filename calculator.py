@@ -1,3 +1,7 @@
+# https://github.com/zmckirdy/lab11-ZM-AN.git
+# Partner 1: Zach McKirdy
+# Partner 2: Aditya Nair
+
 import math
 
 def square_root(a):
@@ -12,17 +16,27 @@ def hypoteneuse(a, b):
 def add(a, b): 
     return a + b
 
+def sub(a, b):
+    return a - b
+
+def mul(a, b): 
+    return a * b
+
+def div(a, b): 
+    return b / a 
+
+def log(a, b): 
+    return math.log(b,a)
+
+def exp(a, b): 
+    return a^b
+
 def subtract (a, b):
     return a - b
 
 def multiply(a, b):
     return a * b
 
-def divide(a, b):
-    if a == 0:
-        raise ZeroDivisionError("Error: Cannot divide by 0.")
-    else:
-        return b / a
 
 def logarithm(a, b):
     if a <= 0:
